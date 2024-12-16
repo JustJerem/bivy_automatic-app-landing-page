@@ -10,7 +10,7 @@ playstore_link                            : https://play.google.com/store/apps/d
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Bivy Club                                          # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description                           : Spot à Bivouac, une nuit au milieu des étoiles
@@ -72,7 +72,7 @@ topbar_transparency: 0.1
 topbar_title_color: "#ffffff"
 
 # Replace with your own cover image reflecting the bivouac theme.
-cover_image: assets/bivouac_cover.png
+cover_image: #assets/bivouac_cover.png
 cover_overlay_color: "#B7D299"
 cover_overlay_transparency: 0.8
 
