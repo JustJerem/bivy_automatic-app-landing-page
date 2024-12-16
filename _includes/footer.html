@@ -59,23 +59,22 @@
 	  {% endif %}
   
 	  {% if site.tiktok_username %}
-		<a href="https://www.tiktok.com/@{{ site.tiktok_username }}">
-		  <span class="fa-stack fa-1x">
-			<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-			<i class="socialIconTop fab fa-tiktok fa-stack-1x"></i>
-		  </span>
-		</a>
-	  {% endif %}
-  
-	  {% if site.bluesky_username %}
-		<!-- No official Bluesky icon yet, using fa-skyatlas as a placeholder -->
-		<a href="https://bsky.app/profile/{{ site.bluesky_username }}">
-		  <span class="fa-stack fa-1x">
-			<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-			<i class="socialIconTop fab fa-skyatlas fa-stack-1x"></i>
-		  </span>
-		</a>
-	  {% endif %}
+      <a href="https://www.tiktok.com/@{{ site.tiktok_username }}">
+        <span class="fa-stack fa-1x">
+          <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+          <i class="socialIconTop fab fa-tiktok fa-stack-1x"></i>
+        </span>
+      </a>
+    {% endif %}
+
+    {% if site.bluesky_username %}
+      <a href="https://bsky.app/profile/{{ site.bluesky_username }}">
+        <span class="fa-stack fa-1x">
+          <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+          <i class="socialIconTop fab fa-bluesky fa-stack-1x"></i>
+        </span>
+      </a>
+    {% endif %}
   
 	  {% if site.email_address %}
 		<a href="mailto:{{ site.email_address }}">
