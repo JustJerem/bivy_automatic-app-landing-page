@@ -61,9 +61,9 @@ features:
     description: Consultez la saison idéale, le nombre de tentes installables, la présence d’un réseau mobile ou encore la distance des points d’eau.
     fontawesome_icon_name: info-circle
 
-  - title: Alertes et notifications
-    description: Recevez des alertes sur les conditions météo, les fermetures temporaires et les mises à jour réglementaires, pour une expérience sûre et optimisée.
-    fontawesome_icon_name: bell
+  # - title: Alertes et notifications
+    # description: Recevez des alertes sur les conditions météo, les fermetures temporaires et les mises à jour réglementaires, pour une expérience sûre et optimisée.
+    # fontawesome_icon_name: bell
 
 
 # Theme Settings
